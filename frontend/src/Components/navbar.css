@@ -1,0 +1,95 @@
+
+.color {
+  margin-top: 20px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.navbar-nav .nav-link {
+  margin: 0 15px;
+  padding-bottom: 15px;
+}
+
+.navbar-nav .dropdown-menu {
+  left: 0;
+}
+.nav-link {
+  font-family: "Lato", sans-serif;
+  font-size: 20px !important;;
+  font-weight: 800;  /* Boldness controlled by font-weight */
+  font-style: normal;  /* No italicization */
+}
+
+
+
+.nav-btn {
+  background-color: rgb(243, 61, 61); /* Vibrant red color */
+  color: white; /* Text color */
+  padding: 12px 20px; /* Adjusted padding for better proportions */
+  font-size: 16px; /* Standard font size for readability */
+  font-weight: bold; /* Make the text stand out */
+  text-align: center;
+  border: none; /* Remove default borders */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Indicate interactivity */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+
+
+
+/* App.css */
+.dropdown-wrapper .dropdown-menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px; /* Adjust the width of the dropdown */
+  position: absolute; /* Ensures it appears on top of other content */
+  left: +50px; /* Move it a little left of the arrow */
+  top: 50px; /* Optional, adjust if needed to align with the navbar */
+}
+
+.dropdown-wrapper .column {
+  flex: 1;
+  min-width: 150px; /* Ensures columns are a bit wider */
+  padding: 10px;
+}
+
+.dropdown-wrapper .dropdown-item {
+  padding: 8px 12px;
+}
+
+.dropdown-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown-columns h3 {
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+}
+
+.dropdown-columns li {
+  font-size: 13px;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.login-container{
+  display:flex;
+  justify-items: center;
+  align-items: center;
+}
+
+

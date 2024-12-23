@@ -1,0 +1,92 @@
+
+.outer-container {
+    height: 55rem;
+    text-align: center;
+}
+
+
+.text {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.text h2 {
+    font-family: 'Tangerine', cursive;
+    color: #C59D69;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 1.6px;
+}
+
+.text h3 {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 34px;
+
+}
+
+.btn-group {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+
+}
+.mybutton{
+    margin-right: 10px;
+    border-radius: 20px;
+    outline: none;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+/* Styling for the image div */
+.image2 {
+    width: 550px;
+    height: 600px;
+    background-image: url('./CarouselImage/doodle.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.image-upper {
+
+    margin-bottom: 5px;
+}
+
+.image-upper .text2  {
+    text-align: left;
+    
+}
+.text2 h2{
+    font-family: 'Tangerine', cursive;
+    font-weight: 200;
+    color: #333;
+    font-size: 50px;
+}
+
+
+
+
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    margin: 30px;
+}
+
+.food-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+
+}

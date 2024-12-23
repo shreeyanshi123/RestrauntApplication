@@ -1,0 +1,68 @@
+.footer {
+    background-color: rgba(4, 21, 39, 1);
+    color: white;
+    padding: 50px;
+    height: 370px;
+    width: 100%;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-around;
+    /* Ensures equal spacing */
+    margin-top: 20px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.header-row h3 {
+    margin: 0;
+    font-size: 1.7rem;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: first baseline;
+}
+
+.address,
+.helpful-links,
+.overview,
+.subscribe {
+    flex: 1;
+    margin: 15px;
+    margin-top: 0px;
+    text-align: center;
+
+}
+
+.content p {
+    line-height: 1;
+    align-items: left;
+}
+
+.box {
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    background-color: aliceblue;
+}
+
+.box input,
+.box button {
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+}
+
+.box button:hover {
+    background-color: rgb(3, 100, 210);
+}
+
+.footer .line {
+    height: 2px;
+    width: 100%;
+    background-color: white;
+}

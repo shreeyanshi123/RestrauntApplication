@@ -1,0 +1,154 @@
+
+.carousel-item {
+    height: 600px;
+}
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+}
+
+.custom-caption {
+    margin: 20%;
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+    border-radius: 8px;
+}
+
+.custom-caption h2 {
+    font-size: 50px;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+}
+
+.custom-caption h3 {
+    font-family: "Tangerine", cursive;
+    font-weight: 900;
+    font-size: 50px;
+    font-style: normal;
+    color: pink;
+}
+
+.background-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("women.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 247, 216, 0.5);
+    z-index: 1;
+}
+
+
+.textportion {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    z-index: 2;
+}
+
+.textportion h6 {
+    font-family: "Tangerine", sans-serif;
+    font-weight: 700;
+    font-size: 28px !important;
+    color: #100f0e;
+}
+
+.textportion h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    color: rgb(14, 12, 12);
+}
+
+.textportion p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: rgb(18, 17, 17);
+    text-align: left;
+    line-height: 1.5;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+
+    margin-top: 15rem;
+
+}
+
+.card-container .card {
+    width: 18rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container .card img {
+    height: 15rem;
+    object-fit: cover;
+}
+
+.card-container .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.card-container .card2 img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.card2 {
+    position: relative; /* Ensure the text aligns relative to this card */
+}
+
+.card2 .text2 {
+    color: black; /* Default color */
+    font-size: 40px; /* Adjust font size */
+    position: absolute; /* Center text */
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0; /* Default to invisible */
+    visibility: hidden; /* Hidden by default */
+    z-index: 2;
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.card2:hover .text2 {
+    opacity: 1; /* Make the text visible */
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1.1); /* Add zoom effect */
+}
+
+.card2:hover {
+    background-color: #060110; /* Darken the card background */
+    opacity: 0.9;
+    transition: background-color 0.3s ease, opacity 0.3s ease; /* Smooth hover effect */
+}
+
+
